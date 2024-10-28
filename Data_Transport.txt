@@ -1,0 +1,41 @@
+Insights
+--------
+
+Overall Trend:
+-> The visualization reveals the overall trend of passenger journeys for each service type.
+
+Seasonality:
+->  Seasonality is addressed here within the exponential smoothing model
+->  The parameter seasonal = add indicates that the model assumes an additive seasonality, meaning that the seasonal fluctuations are added to the overall trend
+-> The parameter seasonal_periods = 365 specifies the length of the seasonal cycle, which is set to 365 days,suggesting a yearly seasonality in your passenger journey data
+
+Forecasted values:
+->  The forecast provides an estimate of passenger journeys for next 7 days from sep 30 to oct 6
+
+-------------------------------------------------------------------
+Local Route and Rapid Route: 
+->  These seem to have higher and more consistent passenger volumes over time, indicating they may be core services with steady demand.
+Light Rail:
+->  Shows a moderate level, but with noticeable fluctuations.
+Peak Service and School Services: 
+->  These have lower counts, likely due to their specialized use cases. They also show periodic dips and peaks.
+Other: 
+->  It has lower counts, perhaps indicating auxiliary or event-based usage.
+
+--------------------------------------------------------------------
+From forecasted data
+
+peakdays of the services 
+Local Route -> 2024-09-30
+Light Rail -> 2024-09-30
+Peak Service -> 2024-09-30
+Rapid Route -> 2024-09-30
+School -> 2024-10-03
+weekday -> 2024-10-05
+
+
+-----------------------------------------------------------------
+From graph of forecast
+
+The graph shows that
+-> The values are commonly increasing from oct 1 to oct 3 and gradually decreasing after oct 3 and slightly gets increased after oct 5
